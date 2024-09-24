@@ -1,0 +1,70 @@
+@media (min-width: 0px) and (max-width: 650px) {
+    .header {
+        justify-content: start !important;
+    }
+    .grid-catalog {
+        grid-template-columns: 1fr;
+    }
+    .div-planning-title p{
+        font-size: 30px;
+    }
+    .div-greeting-text p {
+        font-size: 45px;
+        color: rgb(255, 244, 200);
+        font-weight: bold;
+        font-family: Montserrat, Arial;
+        margin-bottom: 0;
+    }
+    #header-about-us, #header-contact {
+        display: none;
+    }
+    
+    .offer p {
+        font-size: 50px;
+    }
+    .grid-offer-konyha {
+        display: grid;
+        grid-template-columns: 0.1fr 2fr 0.1fr; 
+        margin-bottom: 80px;
+    }
+    .offer-konyha {
+        min-width: 400px;
+    }
+    .contact-advertiser p, .catalog-advertiser p{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .div-about-us-title img {
+        width: 20px;
+    }
+    .about-us-data p, .contact-data p {
+        font-weight: bold;
+        font-size: 10px;
+    }
+}
+@media (min-width:651px) and (max-width: 850px) {
+    .grid-catalog {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 1300px) and (max-width: 9999px) {
+    .grid-catalog {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .div-offer-description p {
+        padding: 12px;
+        font-size: 24px;
+        
+    }
+    .title-icon {
+        width: 100px;
+    }
+    .title-text {
+        font-size: 30px;
+    }
+    .about-us-data p {
+        font-weight: bold;
+        font-size: 25px;
+    }
+} 
